@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.css">
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="max-w-[1400px] m-auto p-5">
+    <nav class="flex xl:items-center  justify-between  p-5">
+        <img src="./imgmajid/logotravel.jpg" class="w-[50px] h-[50px]" alt="">
+        <ul class="xl:flex gap-8 font-semibold hidden ">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Countries</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <div class="border rounded-lg bg-white xl:hidden absolute z-1 left-[290px] top-8">
+            <input type="checkbox" id="accordion1" class="hidden peer  xl:hidden">
+            <label for="accordion1" class="w-full xl:hidden p-4 text-left font-semibold flex justify-between cursor-pointer">
+               <img src="./imgmajid/Fa-Team-Fontawesome-FontAwesome-Bars.512.png" class="xl:block block m-auto w-8 h-8" alt="">
+            </label>
+            <div class="hidden peer-checked:block p-4 border-t bg-black  text-white  xl:hidden ">
+                <ul class="flex flex-col text-center gap-8 font-semibold ">
+                    <li class="hover:underline"><a href="#">Home</a></li>
+                    <li class="hover:underline"><a href="#">About</a></li>
+                    <li class="hover:underline"><a href="#">Services</a></li>
+                    <li class="hover:underline"><a href="#">Contact</a></li>
+                    <li class="hover:underline"><a href="#">Countries</a></li>
+                    <li class="hover:underline"><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <button class="bg-[#db545a] py-3 hidden hover:scale-y-110 hover:bg-slate-500 xl:block px-10  rounded-md text-white font-semibold">Sign Up</button>
+    </nav>
+    <section style="background-image: url(./imgp2/panoramic-view-roys-peak-new-zealand-with-low-mountains-distance-cloudscape.jpg);" class="bg-no-repeat h-[800px] flex flex-col justify-center items-center gap-10 bg-cover">
+        <div class="flex flex-col gap-8 items-center">
+            <h1 class="text-[60px] font-bold text-white">TRAVELING AROUBD THE WORLD</h1>
+            <p class="font-bold text-white">We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.</p>
+            <button class="bg-[#db545a] py-3 px-10 hover:scale-y-110 hover:bg-slate-500 rounded-md text-white font-semibold">Discover Our World</button>
+        </div>
+        <article class="bg-white w-[90%]   rounded-3xl p-4">
+            <div class="flex justify-between font-bold ">
+                <p>Search Destination*</p>
+                <p>
+                    Pax Number*</p>
+                <p>
+                    Checkin Date*</p>
+                <p>Checkout Date*</p>
+                <p>
+                    Currency*</p>
+            </div>
+            <hr><br>
+            <div class="flex justify-between">
+                <input type="text" placeholder="Enter Destination">
+                <input type="number" placeholder="Enter Pax Number">
+                <input type="date" name="" id="">
+                <input type="date">
+                 
+<button
+  class="relative inline-flex items-center justify-center px-8 py-2.5 overflow-hidden tracking-tighter text-white bg-gray-800 rounded-md group"
+>
+  <span
+    class="absolute w-0 h-0 transition-all duration-500 ease-out bg-[#db545a] rounded-full group-hover:w-56 group-hover:h-56"
+  ></span>
+  <span class="absolute bottom-0 left-0 h-full -ml-2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="w-auto h-full opacity-100 object-stretch"
+      viewBox="0 0 487 487"
+    >
+      <path
+        fill-opacity=".1"
+        fill-rule="nonzero"
+        fill="#FFF"
+        d="M0 .3c67 2.1 134.1 4.3 186.3 37 52.2 32.7 89.6 95.8 112.8 150.6 23.2 54.8 32.3 101.4 61.2 149.9 28.9 48.4 77.7 98.8 126.4 149.2H0V.3z"
+      ></path>
+    </svg>
+  </span>
+  <span class="absolute top-0 right-0 w-12 h-full -mr-3">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="object-cover w-full h-full"
+      viewBox="0 0 487 487"
+    >
+      <path
+        fill-opacity=".1"
+        fill-rule="nonzero"
+        fill="#FFF"
+        d="M487 486.7c-66.1-3.6-132.3-7.3-186.3-37s-95.9-85.3-126.2-137.2c-30.4-51.8-49.3-99.9-76.5-151.4C70.9 109.6 35.6 54.8.3 0H487v486.7z"
+      ></path>
+    </svg>
+  </span>
+  <span
+    class="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-200"
+  ></span>
+  <span class="relative text-base font-semibold">INQUIRE NOW !</span>
+</button>
+
+            </div>
+        </article>
+    </section>
+</body>
+</html>
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
