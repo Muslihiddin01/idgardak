@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body class="max-w-[1400px] m-auto p-5">
     <nav class="flex xl:items-center  justify-between  p-5">
@@ -49,7 +52,7 @@
         <h1 class="text-[30px] xl:text-[48px] text-center p-4 text-white">Incredible travel experiences created just for you.</h1>
         <p class="text-center text-white text-[18px]  xl:text-[20px]">The most unique experiences in the world.</p>
         <article class="p-5 flex flex-col items-center gap-5 xl:flex-row  xl:flex xl:justify-between">
-            <div class="xl:w-[350px] w-[250px] flex flex-col hover:bg-gray-300 hover:scale-105 item gap-2 bg-white rounded-3xl shadow-xl">
+            <div class="xl:w-[350px] w-[250px] flex flex-col hover:bg-gray-300 hover:scale-105 item gap-2 bg-white rounded-3xl shadow-xl"   data-aos="zoom-in-right" data-aos-duration="1500">
                 <img src="./imgmajid/hotel.jpg" class="rounded-t-3xl " alt="">
                 <h2 class="p-2 text-center text-[20px] font-bold">Hotel</h2> 
                 <p class="flex p-2 items-center gap-2"><img src="./imgmajid/Iconoir-Team-Iconoir-Check.512.png" class="w-4 h-4" alt="">Daily breakfast
@@ -60,7 +63,9 @@
                 </p>
                 <button class="m-auto border-b font-semibold border-b-rose-600">More</button><br>
             </div>
-            <div class="w-[350px]  hidden xl:flex flex-col hover:bg-gray-300 hover:scale-105 gap-2 bg-white rounded-3xl shadow-xl">
+            <div class="w-[350px]  hidden xl:flex flex-col hover:bg-gray-300 hover:scale-105 gap-2 bg-white rounded-3xl shadow-xl"  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
                 <img src="./imgmajid/istockphoto-155375632-612x612.jpg" class="h-[235px] rounded-t-3xl " alt="">
                 <h2 class="p-2 text-center text-[20px] font-bold">Cruises</h2> 
                 <p class="flex p-2 items-center gap-2"><img src="./imgmajid/Iconoir-Team-Iconoir-Check.512.png" class="w-4 h-4" alt="">Dedicated Embedded Hosts
@@ -71,7 +76,7 @@
                 </p>
                 <button class="m-auto border-b font-semibold border-b-rose-600">More</button><br>
             </div>
-            <div class="w-[350px] hidden xl:flex flex-col  hover:bg-gray-300 hover:scale-105 gap-2 bg-white rounded-3xl shadow-xl ">
+            <div class="w-[350px] hidden xl:flex flex-col   hover:bg-gray-300 hover:scale-105 gap-2 bg-white rounded-3xl shadow-xl " data-aos="zoom-in-left" data-aos-duration="1500">
                 <img src="./imgmajid/couple-vacation-taking-selfie.jpg" class="rounded-t-3xl " alt="">
                 <h2 class="p-2 text-center text-[20px] font-bold">Tours</h2> 
                 <p class="flex p-2 items-center gap-2"><img src="./imgmajid/Iconoir-Team-Iconoir-Check.512.png" class="w-4 h-4" alt="">Daily breakfast
@@ -197,6 +202,75 @@
         <button class="bg-white border-2 border-[#db545a] px-10 py-3">Seen</button>
        </div> <br><br>
     </section>
+    <br><br><br>
+    <section class="bg-[#db545a] w-full  flex xl:justify-between xl:flex-row flex-col gap-5 p-5">
+        <div class="bg-white p-5 xl:[30%] flex xl:flex-col  gap-4  rounded-xl">
+            <p class="text-[20px]  font-semibold"><i class="fa-solid fa-phone text-[#db545a]"></i> Contacts <br>
+                <span class="font-normal text-gray-500 text-[14px]">1 (234) 567-891, <br> 1 (234) 987-654</span></p>
+            <p class="text-[20px] font-semibold"><i class="fa-solid fa-location-dot text-[#db545a]"></i> location <br><span class="font-normal text-gray-500 text-[14px]">121 Rock Street, 21 Avenue, Нью-Йорк, <br>штат Нью-Йорк 92103-9000</span></p>
+            <p class="text-[20px] font-semibold"><i class="fa-solid fa-clock text-[#db545a]"></i> Working <br><span class="font-normal text-gray-500 text-[14px]">Пн – Пт …… 10:00 – 20:00, <br> Сб, Вс ....… Закрыто</span></p>
+        </div>
+        <img src="./aruss.jpg" class="w-[300px] h-[300px] rounded-full self-center" alt="">
+        <div class="p-5 bg-white rounded-xl">
+            <h2>Contact us</h2>
+            <div class="flex flex-col gap-4">
+
+                <label for=""></label>
+                <input type="text" placeholder="Enter your name" class=" px-2 py-1  border-b-2 border-gray-400 pb-2  px-2">
+                
+                <label for=""></label>
+                <input type="email" placeholder="Enter your email" class="px-2 py-1  border-b-2 border-gray-400 pb-2">
+                <label for=""></label>
+                <textarea rows="4" placeholder="" class=" px-2 border-b-2 border-gray-400"></textarea><br>
+                <button class="py-2 px-10 bg-[#db545a] hover:scale-105 hover:bg-gray-600 text-white font-semibold rounded-full">Submit for consideration</button>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <footer class="bg-[#2f2f4c] w-full   text-white p-5">
+        <article class="flex xl:justify-between   gap-8">
+            <div class="m-auto xl:self-center xl:m-0">
+                <img src="./imgmajid/logotravel.jpg" class="w-[50px] m-auto xl:m-0 h-[50px] rounded-full " alt=""><br>
+                <p class="text-center">TRAVEL AGENCY</p>
+            </div>
+            
+            <ul class="xl:flex xl:flex-col hidden  gap-4">
+                <li><a href="#" class="text-white hover:text-gray-500">Home</a></li>
+                <li><a href="#" class="text-white hover:text-gray-500">About</a></li>
+                <li><a href="#" class="text-white hover:text-gray-500">Services</a></li>
+                <li><a href="#" class="text-white hover:text-gray-500">Contact</a></li>
+            </ul>
+            <ul class="xl:flex xl:flex-col hidden gap-4">
+                <li><a href="#" class="text-white hover:text-gray-500">Home</a></li>
+                <li><a href="#" class="text-white hover:text-gray-500">About</a></li>
+                <li><a href="#" class="text-white hover:text-gray-500">Services</a></li>
+                <li><a href="#" class="text-white hover:text-gray-500">Contact</a></li>
+            </ul>
+            <ul class="xl:flex xl:flex-col hidden gap-4">
+                <li><a href="#" class="text-white hover:text-gray-500">Home</a></li>
+                <li><a href="#" class="text-white hover:text-gray-500">About</a></li>
+                <li><a href="#" class="text-white hover:text-gray-500">Services</a></li>
+                <li><a href="#" class="text-white hover:text-gray-500">Contact</a></li>
+            </ul>
+        </article>
+        <br><hr><br>
+
+        <article class=" ">
+            <div class="flex m-auto xl:text-center justify-center xl:m-0 gap-6">
+                <a href="https://www.instagram.com/u.travelagency_?igsh=enNoamg1YTIzNXhj"><i  class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.booking.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/ratehawk-com/"><i class="fa-brands fa-invision"></i></a>
+                <a href="https://www.whatsapp.com/contact"><i class="fa-brands fa-whatsapp"></i></a>
+            </div><br>
+           <p class="text-center">
+             © 2023 Travel Agency. All rights reserved. Designed by <a href="" class="">TA</a>
+           </p>
+        </article>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
 <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
